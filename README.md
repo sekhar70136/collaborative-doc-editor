@@ -24,6 +24,10 @@ Most collaborative editors also incorporate user authentication and access contr
 
 Frontend: React.js (for live UI updates)
 
+#OUTPUT :
+
+![Image](https://github.com/user-attachments/assets/70c2f26a-7a93-475a-b1fd-c31736fa84e2)
+
 Backend: Node.js 
 
 Database: MongoDB (for document storage)
