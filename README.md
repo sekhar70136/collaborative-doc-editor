@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# COLLABORATIVE-DOC-EDITOR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*COMPANY* : CODETECH IT SOLUTIONS
 
-## Available Scripts
+*NAME*    : KONDALA SOMA SEKHAR
 
-In the project directory, you can run:
+*INTERN ID* : CT08DM1484
 
-### `npm start`
+*DOMAIN* : FULL STACK DEVELOPMENT
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*DURATION* : 8 WEEKS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*MENTOR* : NEELA SANTHOSH
 
-### `npm test`
+##A Collaborative Document Editor is a web-based application that enables multiple users to create, edit, and manage documents in real-time, regardless of their physical location. This tool has become essential in modern workspaces, especially with the rise of remote work, online education, and team-based projects. It offers a seamless and interactive experience, allowing users to contribute simultaneously, view changes live, and collaborate more efficiently than through traditional document exchange methods.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+At its core, a collaborative editor functions like a standard word processor, providing users with a rich-text interface for writing and formatting. However, the real strength lies in its ability to synchronize updates instantly across all connected clients. When one user makes a change—such as typing text, formatting a heading, or inserting an image—other users see that change reflected on their screen in real time. This is typically powered by technologies like WebSockets or WebRTC, which enable low-latency communication between the server and clients.
 
-### `npm run build`
+The editor supports a variety of formatting tools such as bold, italics, underline, font sizes, colors, bullet points, numbered lists, hyperlinks, and tables. Users can work on the same document concurrently, with color-coded cursors or selection highlights to indicate which section each person is editing. This prevents conflicts and helps keep track of everyone's contributions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+An important feature of collaborative editors is version control or document history, which keeps a record of all the changes made over time. This allows users to revert to earlier versions, track who made specific changes, and maintain a clear workflow. This is especially useful for managing large documents or when multiple revisions are involved.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Most collaborative editors also incorporate user authentication and access control. Only registered users can create or edit documents, and document owners can manage permissions, deciding who can view, comment, or edit. This ensures security and privacy, especially when handling sensitive or proprietary information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Frontend: React.js (for live UI updates)
 
-### `npm run eject`
+Backend: Node.js 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Database: MongoDB (for document storage)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+WebSocket (e.g., Socket.io): For real-time communication between users
